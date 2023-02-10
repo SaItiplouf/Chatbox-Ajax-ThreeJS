@@ -1,0 +1,89 @@
+#vantajs {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  h1,h2 {
+    color: #fff !important;
+  }
+  
+
+  p {
+
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+   
+  }
+  @media screen and (max-width: 1024px) {
+    #vantajs {
+    max-height: 100vh;
+  }
+    
+    h1,h2 {
+      font-size: 1.5rem;
+    }
+    
+  }
+
+  #discussion{
+	height: 78vh;
+  width: 90%;
+	box-shadow: 0 0 5px grey;
+	overflow-y: scroll;
+}
+
+.saisie{
+	height: 20vh;
+    width: 100%;
+}
+
+#valid {
+	height: calc(2.375rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 1.5rem;
+  }
+
+  .boutondeco {
+    margin-left : 39rem;
+    margin-top : 50rem;
+  }
+
+  .inputtext1 {
+    background-color: #3c344083;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 69.8rem;
+    padding-right : 10rem;
+  }
+  .inputguestcr {
+    background-color: #322e3583;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 10rem;
+
+  }
+  .spanbuttonvalider {
+    background-color: rgba(255, 255, 255, 0.76);
+  }
+
+  .inputtext2 {
+    background-color: #3c344083;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 59.8rem;
+  }

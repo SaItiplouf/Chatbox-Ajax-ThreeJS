@@ -1,0 +1,42 @@
+body {
+    background-image: url("../background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+h1,h2,label,#text {
+    color: #fff !important;
+  }
+  
+
+  p {
+
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+   
+  }
+  @media screen and (max-width: 1024px) {
+    #vantajs {
+    max-height: 100vh;
+  }
+    
+    h1,h2 {
+      font-size: 1.5rem;
+    }
+    
+  }
+
+  .inputzz {
+    background-color: #3c344083;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 69.8rem;
+    padding-right : 10rem;
+    margin-bottom : 1rem;
+  }

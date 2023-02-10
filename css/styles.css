@@ -1,0 +1,26 @@
+body{
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.1);
+}
+
+#discussion{
+	height: 78vh;
+	box-shadow: 0 0 5px grey;
+	overflow-y: scroll;
+}
+
+.saisie{
+	height: 20vh;
+}
+
+#valid {
+	height: calc(2.375rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 1.5rem;
+  }
+
+.input-group-append span:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
